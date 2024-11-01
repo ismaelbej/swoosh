@@ -1,7 +1,7 @@
 defmodule Swoosh.Mixfile do
   use Mix.Project
 
-  @version "0.17.0"
+  @version "0.17.1"
 
   def project do
     [
@@ -20,7 +20,7 @@ defmodule Swoosh.Mixfile do
 
       # Docs
       name: "Swoosh",
-      source_url: "https://github.com/swoosh/swoosh",
+      source_url: "https://github.com/ismaelbej/swoosh",
       homepage_url: "https://github.com/swoosh/swoosh",
       docs: [
         source_ref: "v#{@version}",
@@ -94,7 +94,7 @@ defmodule Swoosh.Mixfile do
     [
       maintainers: ["Steve Domin", "Baris Balic", "Po Chen"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/swoosh/swoosh"}
+      links: %{"GitHub" => "https://github.com/ismaelbej/swoosh"}
     ]
   end
 end
